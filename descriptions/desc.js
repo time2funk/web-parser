@@ -1,8 +1,7 @@
 'use strict';
 var webpage = require('webpage');
 var system = require('system');
-// var site = system.args[1];
-var site = 'www.x-art.com/galleries/definitely_not_so_shycum_see';
+var site = system.args[1];
 console.log('->slimer:'+site);
 var prefix = 'https://';
 
